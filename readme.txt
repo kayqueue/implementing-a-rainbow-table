@@ -1,3 +1,5 @@
+Assignment Result: 13/14
+
 # Goal 1: Given a password file "Passwords.txt", construct a Rainbow Table.
 ---------------------------------------------------------------------------
 1. for each un-processed password from "Passwords.txt", apply a hash function
