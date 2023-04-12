@@ -63,10 +63,10 @@ def inside(hash, current_hash, rainbow_table):
 
 		# if hash is inside rainbow table
 		if hash_pre in rainbow_table.values():
-			print(f"calling inside() function...\n")
+			# print(f"calling inside() function...\n")
 			inside(hash, hash_pre, rainbow_table)
 		else: # if hash in not inside rainbow table
-			print(f"calling outside() function...\n")
+			# print(f"calling outside() function...\n")
 			outside(hash, hash_pre, rainbow_table, 0)	
 	except:
 		print("The requested hash cannot be found - recursion depth")

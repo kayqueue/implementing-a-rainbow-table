@@ -1,3 +1,16 @@
+# Goal 1: Given a password file "Passwords.txt", construct a Rainbow Table.
+---------------------------------------------------------------------------
+1. for each un-processed password from "Passwords.txt", apply a hash function
+2. apply reduction function to the hash value obtained
+3. repeat step 2 four more times
+4. store original word processed in step 1 and the final hash as an entry in the rainbow table
+
+# Goal 2: Finding pre-images from a given hash value
+----------------------------------------------------
+1. user inputs a hash value
+2. program attempts to find the pre-image of the requested hash value against the constructed rainbow table in Goal 1
+3. program runs until a pre-image is found, or until it performs the reduction + hash enough times that it is clear that something is wrong
+
 # Compilation Instructions
 ---------------------------
 - to run the program
